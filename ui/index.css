@@ -1,0 +1,367 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.OurDiv {
+    position: fixed;
+    /* This sets the div to a fixed place*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+
+    /*border-top: 20px solid rgb(0, 124, 7);
+    
+    /*Sets how much it should be left from the screen.*/
+    width: 100%;
+    /*Sets the width of the div*/
+    height: 100%;
+    /*Sets the height of the div*/
+    background-color: rgba(0, 0, 0, 0);
+    /*Now this one should be obvious.*/
+    vertical-align: middle;
+    /*Aligns the text within div to middle*/
+    text-align: center;
+    /*Sets the div text to the center*/
+}
+
+.sneaky {
+    position: fixed;
+    /* This sets the div to a fixed place*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+
+    /*border-top: 20px solid rgb(0, 124, 7);
+    
+    /*Sets how much it should be left from the screen.*/
+    width: 30%;
+    /*Sets the width of the div*/
+    height: 20%;
+    /*Sets the height of the div*/
+    background-color: rgba(0, 0, 0, 0.733);
+    /*Now this one should be obvious.*/
+    vertical-align: middle;
+    /*Aligns the text within div to middle*/
+    text-align: center;
+    /*Sets the div text to the center*/
+}
+
+.blufor {
+    width: 30%;
+    height: 85%;
+    position: relative;
+    margin: .7%;
+    top: 6%;
+
+    background-color: rgb(61, 146, 226);
+    border-style: none;
+
+    color:rgb(255, 255, 255);
+    font: 100% sans-serif;
+    font-weight: bold;
+    font-size: 1.5vmin;
+
+    cursor:pointer;
+}
+
+.blufor:hover {
+    background-color: rgba(41, 126, 206, 0.75);
+    color: rgb(235,235,235);
+}
+
+.opfor {
+    width: 30%;
+    height: 85%;;
+    position: relative;
+    margin: .7%;
+    top: 6%;
+
+    background-color: rgb(237, 41, 57);
+    border-style: none;
+
+    color:rgb(255, 255, 255);
+    font: 100% sans-serif;
+    font-weight: bold;
+    font-size: 1.5vmin;
+
+    cursor:pointer;
+}
+
+.opfor:hover {
+    background-color: rgba(206, 41, 41, 0.75);
+    color: rgb(235,235,235);
+}
+
+.independent {
+    width: 30%;
+    height: 85%;
+    position: relative;
+    margin: .7%;
+    top: 6%;
+
+    background-color: rgb(137, 214, 86);
+    border-style: none;
+
+    color:rgb(255, 255, 255);
+    font: 100% sans-serif;
+    font-weight: bold;
+    font-size: 1.5vmin;
+
+    cursor:pointer;
+}
+
+.independent:hover {
+    background-color: rgba(107, 206, 41, 0.75);
+    color: rgb(235,235,235);
+}
+
+.greenTop {
+    position: fixed;
+    /* This sets the div to a fixed place*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 23%;
+    margin: auto;
+
+    padding-left: 0.5%;
+
+    width: 29.5%;
+    /*Sets the width of the div*/
+    height: 2.5%;
+    /*Sets the height of the div*/
+    background-color: rgba(33, 104, 0, 0.733);
+    color:rgb(255, 255, 255);
+    font: 100% sans-serif;
+    font-weight: bold;
+    font-size: 1.5vmin;
+
+    line-height: 175%;
+}
+
+.OurDivText {
+    font-size: 3vw;
+    /*Font size in view width*/
+}
+
+@font-face { font-family: Purista; src: url('https://cdn-141.anonfiles.com/7cAapdWexf/14846a8c-1649854296/Purista.otf'); } 
+
+.hud {
+    position: fixed;
+    /* This sets the div to a fixed place*/
+    left: 83%;
+    right: 0;
+    top: 83%;
+    bottom: 0;
+    /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+
+    /*border-top: 20px solid rgb(0, 124, 7);
+    
+    /*Sets how much it should be left from the screen.*/
+    width: 300px;
+    /*Sets the width of the div*/
+    height: 250px;
+    /*Sets the height of the div*/
+    background-color: rgba(0, 0, 0, 0);
+    /*Now this one should be obvious.*/
+    vertical-align: middle;
+    /*Aligns the text within div to middle*/
+    text-align: right;
+    /*Sets the div text to the center*/
+}
+
+.money {
+    font-family: Purista;
+    color: rgba(191, 214, 183, 1);
+    -webkit-text-stroke: 0.3px black;
+    font-size: 250%;
+}
+
+.xpbackground {
+    margin:auto;
+    position:relative;
+    width: 100%;
+    height: 8%;
+    background-color: rgb(37, 37, 37);
+}
+
+.xpbar {
+    margin:auto;
+    position:relative;
+    top:9%;
+    bottom:0;
+    left:0;
+    right:0;
+
+    width:0%;
+    height: 80%;
+    background-color: rgba(107, 150, 93, 0.733);
+}
+
+.xptext {
+    position:relative;
+    bottom:80%;
+    font-family: Purista;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.teamsbackground {
+    margin:auto;
+    position:relative;
+    top:3%;
+    bottom:0;
+    left:0;
+    right:0;
+
+    width: 100%;
+    height: 21%;
+    background-color: rgba(37, 37, 37, 0);
+    text-align: center;
+}
+
+.blufora {
+    width: 24%;
+    height: 100%;
+    position: relative;
+    margin-right: 3%;
+    margin-left: 3%;
+
+    background-color: rgb(0, 74, 181);
+    border-style: none;
+
+    font-family: Purista;
+    color: rgb(255, 255, 255);
+    font-size:120%;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+.opfora {
+    width: 24%;
+    height: 100%;
+    position: relative;
+    margin-right: 3%;
+    margin-left: 3%;
+
+    background-color: rgb(191, 0, 0);
+    border-style: none;
+
+    font-family: Purista;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 0%;
+
+}
+
+.independenta {
+    width: 24%;
+    height: 100%;
+    position: relative;
+    margin-right: 3%;
+    margin-left: 3%;
+
+    background-color: rgb(13, 175, 4);
+    border-style: none;
+
+    font-family: Purista;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 0%;
+
+}
+
+.teamsamtbackground {
+    margin:auto;
+    position:relative;
+    top:0%;
+    bottom:0;
+    left:0;
+    right:0;
+
+    width: 100%;
+    height: 21%;
+    background-color: rgba(37, 37, 37, 0);
+    text-align: center;
+}
+
+.bluforamt {
+    width: 29%;
+    height: 100%;
+    position: relative;
+    margin-right: 0;
+    margin-left: 3;
+
+    background-color: rgba(0, 75, 181, 0);
+    border-style: none;
+
+    font-family: Purista;
+    color: rgb(255, 255, 255);
+    font-size: 75%;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.opforamt {
+    width: 29%;
+    height: 100%;
+    position: relative;
+    margin-right: 5;
+    margin-left: 5;
+
+    background-color: rgba(191, 0, 0, 0);
+    border-style: none;
+
+    font-family: Purista;
+    color: rgb(255, 255, 255);
+    font-size: 75%;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 1%;
+
+}
+
+.independentamt {
+    width: 29%;
+    height: 100%;
+    position: relative;
+    margin-right: 0;
+    margin-left: 0;
+
+    background-color: rgba(13, 175, 4, 0);
+    border-style: none;
+
+    font-family: Purista;
+    color: rgb(255, 255, 255);
+    font-size: 75%;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 1%;
+
+}
